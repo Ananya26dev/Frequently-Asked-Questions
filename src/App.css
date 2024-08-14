@@ -1,0 +1,54 @@
+.App{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq-box{
+  background-color: grey;
+  margin: 3px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  color: rgba(0,255,234);
+  width: 400px;
+}
+.question{
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 20px;
+}
+button{
+  height:40px;
+  width: 40px;
+  background-color: grey;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor:pointer;
+  color:purple;
+}
+.arrow{
+  transform: rotate(90deg);
+}
+.answer{
+  margin: 15px 0 5px 50px;
+  color:rgb(221,214,12);
+}
+@media (max-width: 768px) {
+  .faq-box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-box {
+    width: 100%; 
+    padding: 15px;
+  }
+}
